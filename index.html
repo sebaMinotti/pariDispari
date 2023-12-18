@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+          <div class="box">
+            <div class="input-group mb-3">
+                <span style="background-color: dodgerblue; color: white;" class="input-group-text" id="basic-addon1">Pari o dispari</span>
+                <input type="text" class="form-control" placeholder="inserisci pari o dispari" aria-label="Username" aria-describedby="basic-addon1" id="PariDispari">
+            </div>
+
+
+
+
+            <div class="input-group mb-3">
+                <span style="background-color: rgb(255, 116, 30); color: white;" class="input-group-text" id=""> numero da 1 a 5</span>
+                <input type="number" class="form-control" placeholder="inserisci un numero da 1 a 5" aria-label="" id="numberUman" aria-describedby="basic-addon1">
+            </div>
+             <div class="boxScelta">
+                  <div class="boxInfo">
+                      <h6>Numero scelto umano</h6>
+                      <span id="sceltaNumeroUmano"></span>
+                      <h6>dispari o pari ?</h6>
+                      <span id="SceltaOpzione">dispari</span>
+                  </div>
+
+
+                  
+                  <div class="boxInfo">
+                    <h6>Numero scelto pc</h6>
+                    <span id="sceltaNumeroPc">--</span>
+                    
+                  </div>
+                  <div class="boxInfo">
+                      <h6>somma numeri</h6>
+                      <span id="sommaNumeri">--</span>
+                      
+                      
+                  </div>
+             </div>
+
+             <div class="risultato">
+                <span style="font-size: 0.6em;" id="vittoria">ha vinto pc 12 scelta pari </span>
+             </div>
+
+             <button id="game">Gioca</button>
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
